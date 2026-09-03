@@ -1,0 +1,21 @@
+# 컴파일 결과
+*.class
+target/
+build/
+out/
+bin/
+# IDE 설정
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+# 로그·임시
+*.log
+.DS
+Store
+_
+# 비밀번호가 든 파일 ★
+application-local.properties
+*.env
