@@ -92,5 +92,5 @@ JDK 재설치 했고 터미널도 재실행 했음
 ![질문1](./images/q-1.png)
 
 ### 질문 2.
-IntelliJ에서 아래와 같이 동작함
+IntelliJ에서 아래와 같이 동작함   
 ![질문2](./images/q-2.png)
