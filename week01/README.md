@@ -21,7 +21,7 @@ Hello.java 를 만들어 이름·학번·학과를 세 줄로 출력하세요.
 
 ### 1-3. 대소문자 오류 확인   
 println 을 Println 으로 바꿔 실행하고, 오류 메시지 맨 아랫줄을 그대로 적으세요.   
-몇 번째 줄이라고 나오나요?
+몇 번째 줄이라고 나오나요? 
 
 #### 실행 결과
 ```
@@ -29,6 +29,8 @@ java: cannot find symbol
 symbol:   method printIn(java.lang.String)
 location: variable out of type java.io.PrintStream
 ```
+10번째 줄 오류
+
 ![1-3 실행 결과](./images/1-3.png)
 
 ### 1-4. 세미콜론 오류 확인 
@@ -39,13 +41,16 @@ location: variable out of type java.io.PrintStream
 ```
 java: ';' expected
 ```
+
+10번째 줄 오류
+
 ![1-4 실행 결과](./images/1-4.png)
 
 ###  1-5. 파일명 불일치 
 파일 이름과 클래스 이름을 다르게 만들어 보고 무슨 일이 생기는지 적으세요.
 
 #### 실행 결과
-맨 첫줄에 빨간줄이 생기고 오류 메시지 노출 
+맨 첫줄에 빨간줄이 생기고 오류 메시지 노출 (하단 캡쳐 이미지 참고)
 
 ![1-5-1 실행 결과](./images/1-5-1.png)
 ![1-5-2 실행 결과](./images/1-5-2.png)
