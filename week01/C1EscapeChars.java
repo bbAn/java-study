@@ -1,6 +1,6 @@
 package week01;
 
-public class Escape {
+public class C1EscapeChars {
     public static void main(String[] args) {
         // 도전 1
         // 1. \n (줄바꿈)
@@ -14,8 +14,5 @@ public class Escape {
 
         // 4. \\ (백슬래시 문자 자체 출력)
         System.out.println("\\java-study\\src\\Hello.java");
-
-        // 도전 2
-        System.out.printf("이름 %s, 나이 %d%n", "홍길동", 20);
     }
 }

@@ -1,6 +1,6 @@
 package week01;
 
-public class Card {
+public class C3BusinessCard {
     public static void main(String[] args) {
         // 도전 3
         System.out.println("+--------------------+");
