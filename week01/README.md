@@ -93,8 +93,33 @@ javac Hello.java —> 메시지 안나옴
 java Hello —> 실행됨   
 JDK 재설치 했고 터미널도 재실행 했음  
 
-#### 실행 결과
-![질문1](./images/q-1.png)
+- 9월 8일 재실행 결과  
+
+파일 삭제 후 신규 생성
+#### 작성 코드 1
+```java
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("자바 설치 성공");
+    }
+}
+```
+
+#### 작성 코드 1 실행 결과
+
+![질문1](./images/q-1-1.png)
+
+#### 작성 코드 2
+파일 삭제 후 신규 생성
+```java
+public class Hello {
+    public void main(String[] args) {
+        System.out.println("자바 설치 성공");
+    }
+}
+```
+#### 작성 코드 2 실행 결과
+![질문1](./images/q-1-2.png)
 
 ### 질문 2.
 IntelliJ에서 아래와 같이 동작함   
