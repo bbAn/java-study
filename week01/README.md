@@ -111,7 +111,6 @@ public class Hello {
 
 #### 작성 코드 2
 파일 삭제 후 신규 생성
-(static 없이도 봐주는 새 기능이 들어간 것)
 ```java
 public class Hello {
     public void main(String[] args) {
@@ -120,6 +119,7 @@ public class Hello {
 }
 ```
 #### 작성 코드 2 실행 결과
+static 없이도 봐주는 새 기능이 들어간 것   
 ![질문1](./images/q-1-2.png)
 
 ### 질문 2.
