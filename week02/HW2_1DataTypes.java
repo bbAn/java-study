@@ -6,9 +6,12 @@ public class HW2_1DataTypes {
         int age = 20;
         double height = 174.5;
         char grade = 'A';
-        boolean status = true;
+        boolean isEnrolled = true;
         String name = "남진경";
-        System.out.println("이름 " + name + "\n" + "나이 " + age + "\n" + "키" + height );
-        System.out.println("학점 " + grade + "\n" + "재학여부 " + status + "\n");
+        System.out.println("이름 " + name);
+        System.out.println("나이 " + age);
+        System.out.println("키 " + height);
+        System.out.println("학점 " + grade);
+        System.out.println("재학여부 " + isEnrolled);
     }
 }
