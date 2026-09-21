@@ -14,7 +14,7 @@ public class C2SecondsToDHMS {
         int minutes = total / 60;
         total %= 60;
 
-        int seconds = total % 60;
+        int seconds = total;
 
         System.out.println(day + "일 " + hour + "시간 " + minutes + "분 " + seconds + "초 ");
     }

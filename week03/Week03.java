@@ -1,7 +1,7 @@
 package week03;
 
 public class Week03 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int a = 7, b = 2;
 
         System.out.println(a + b);

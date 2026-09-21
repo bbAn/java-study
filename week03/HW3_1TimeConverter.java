@@ -9,6 +9,6 @@ public class HW3_1TimeConverter {
         int minute = remainder / 60;
         int second = remainder % 60;
 
-        System.out.println(hour + "시간 " + minute + "분 " + second + "초 " );
+        System.out.println(hour + "시간 " + minute + "분 " + second + "초" );
     }
 }
