@@ -160,7 +160,7 @@ char타입과 int타입 연산시 더 큰 int타입으로 형변환 되고
 300-256 = 44가 나옴   
 
 
-### - 실행 결과
+#### - 실행 결과
 ```
     3
     44
@@ -200,7 +200,7 @@ int → double와 double → int의 차이는 아래 표 내용 때문임
 | 큰 것 → 작은 것 | 강제 형변환 | (int)      | 있음 |
 
 
-### - 오류 메시지
+#### - 오류 메시지
 ```
 java: incompatible types: possible lossy conversion from double to int:6
 java: incompatible types: possible lossy conversion from int to byte:7
@@ -229,7 +229,7 @@ a = 10 은 넣는 거고, a == 10 은 물어보는 겁니다.
     System.out.println(0.1 + 0.2 == 0.3); // false (결과 예상은 맞았으나 예상 과정이 틀렸음 0.1 + 0.2 = 0.30000000000000004)
 
 ```
-### - 실행 결과
+#### - 실행 결과
 ```
     true
     true
@@ -263,7 +263,7 @@ int number = 7;   →  "홀수" 또는 "짝수" 가 나오게
     System.out.println(resultNumber); // 실행 결과: 홀수
 ```
 
-![실행 결과](./images/result01.png)
+![c-1 실행 결과](./images/c-1.png)
 ***
 
 ### 도전 2. 윤년
