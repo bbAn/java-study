@@ -1,6 +1,6 @@
 package week04;
 
-public class week04 {
+public class Week04 {
     public static void main(String[] args) {
         int age = 20;
         int score = 85;
