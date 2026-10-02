@@ -10,3 +10,4 @@ Java 학습 내용을 주차별로 정리하는 저장소입니다.
 | [Week 02](./week02/README.md) | 2주차 · 변수와 자료형               |
 | [Week 03](./week03/README.md) | 3주차 · 연산자 (1) 산술·대입·증감   |
 | [Week 04](./week04/README.md) | 4주차 · 연산자 (2) 비교·논리·형변환 |
+| [Week 05](./week05/README.md) | 5주차 · 입력받기와 Scanner          | 
