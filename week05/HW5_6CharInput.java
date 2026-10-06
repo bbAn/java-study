@@ -8,6 +8,8 @@ public class HW5_6CharInput {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("학점 입력(A/B/C): ");
+        // char grade = sc.nextChar();
+        //   java: cannot find symbol  symbol: method nextChar()
         String input = sc.next();
         char grade = input.charAt(0);
 

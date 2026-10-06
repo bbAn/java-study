@@ -13,7 +13,7 @@ public class C1ChangeCalculator {
         amount %= 5000;
         int oneThousand = amount / 1000;
         amount %= 1000;
-        int fiveHundred = amount /  500;
+        int fiveHundred = amount / 500;
         amount %= 500;
         int oneHundred = amount / 100;
 

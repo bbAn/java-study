@@ -21,6 +21,7 @@ public class HW5_5AverageCalcInput {
         double avgDouble = totalDouble / SUBJECT_COUNT;
 
         System.out.println("평균: " + avgDouble);
+        System.out.printf("평균: %.2f%n", avgDouble); // 값은 그대로 보여줄 때만 반올림해서 자름
 
         sc.close();
     }

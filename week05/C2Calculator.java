@@ -11,7 +11,7 @@ public class C2Calculator {
         int firstNumber = sc.nextInt();
 
         System.out.print("연산자 (+ - * /): ");
-        char operator =  sc.next().charAt(0);
+        char operator = sc.next().charAt(0);
 
         System.out.print("두 번째 수: ");
         int secondNumber = sc.nextInt();
@@ -19,7 +19,9 @@ public class C2Calculator {
         double result = (operator == '+') ? firstNumber + secondNumber
                 : (operator == '-') ? firstNumber - secondNumber
                 : (operator == '*') ? firstNumber * secondNumber
-                : firstNumber / secondNumber;
+                // : firstNumber / secondNumber;
+                //   10 / 0 → ArithmeticException: / by zero (22번째 줄)
+                : (double) firstNumber / secondNumber;
 
         System.out.println(firstNumber + " " + operator + " " + secondNumber + " = " + result);
 

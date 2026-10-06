@@ -1,5 +1,6 @@
 package week05;
 
+// import 를 빼고 돌리면: java: cannot find symbol  symbol: class Scanner  location: class week05.HW5_1ScannerBasics
 import java.util.Scanner;
 
 public class HW5_1ScannerBasics {
@@ -13,7 +14,6 @@ public class HW5_1ScannerBasics {
         System.out.print("나이를 입력하세요: ");
         int age = sc.nextInt();
 
-        System.out.println();
         System.out.printf("%s님은 %d살입니다.%n", name, age);
 
         sc.close();

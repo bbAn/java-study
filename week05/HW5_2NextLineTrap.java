@@ -10,7 +10,8 @@ public class HW5_2NextLineTrap {
         System.out.print("나이: ");
         int age = sc.nextInt();
 
-        sc.nextLine();
+        // 이 줄 없이 바로 nextLine() 으로 이름을 받으면: 이름: [] 20  (엔터만 읽고 끝남)
+        sc.nextLine(); // nextInt() 가 남긴 엔터 버리기
 
         System.out.print("이름: ");
         String name = sc.nextLine();
