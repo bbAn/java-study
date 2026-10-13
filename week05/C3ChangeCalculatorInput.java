@@ -31,7 +31,7 @@ public class C3ChangeCalculatorInput {
         System.out.println("500 " + fiveHundred + "개");
         System.out.println("100 " + oneHundred + "개");
 
-        // amount 는 연산 중 계속 덮어써져서 나머지(100 미만)만 남아 원래 금액은 따로 저장한 originalAmount 로 출력
+        // amount 는 연산 중 계속 덮어써져서 나머지(500 미만)만 남아 원래 금액은 따로 저장한 originalAmount 로 출력
         System.out.println("입력하신 " + originalAmount + "원의 거스름돈입니다");
 
         sc.close();
