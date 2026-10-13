@@ -33,6 +33,9 @@ location: variable out of type java.io.PrintStream
 
 ![1-3 실행 결과](./images/1-3.png)
 
+cannot find symbol 이 나오면
+symbol: 줄만 보면 됨. (오타나 대소문자 확인)
+
 ### 1-4. 세미콜론 오류 확인 
 세미콜론을 하나 지우고 실행해 오류 메시지를 적으세요.   
 몇 번째 줄이라고 나오나요? 
