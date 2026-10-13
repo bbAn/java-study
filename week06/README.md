@@ -350,8 +350,8 @@ if (b > max)를 만족 하면 else if (c > max)를 건너 뛰는 케이스가 �
 ![6-5-1 실행 결과](./images/6-5-1.png)   
 ![6-5-2 실행 결과](./images/6-5-2.png)   
 ![6-5-3 실행 결과](./images/6-5-3.png)   
-![6-5-4 실행 결과](./images/6-5-4.png)
-![6-5-5 실행 결과](./images/6-5-5.png)
+![6-5-4 실행 결과](./images/6-5-4.png)   
+![6-5-5 실행 결과](./images/6-5-5.png)   
 ***
 
 ### 6-6. 터지기 전에 막기
@@ -489,7 +489,7 @@ java: cannot find symbol
 ![c-1-3 실행 결과](./images/c-1-3.png)     
 ![c-1-4 실행 결과](./images/c-1-4.png)      
 ![c-1-5 실행 결과](./images/c-1-5.png)      
-![c-1-6 실행 결과](./images/c-1-6.png)
+![c-1-6 실행 결과](./images/c-1-6.png)   
 ![c-1-7 실행 결과](./images/c-1-7.png)   
 ***
 
