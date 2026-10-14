@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class HW6_1TernaryToIf {
     // 6-1 삼항을 if 로
     public static void main(String[] args) {
-        // 도전 1. 삼항 연산자
         Scanner sc = new Scanner(System.in);
         System.out.print("점수: ");
         int score = sc.nextInt();

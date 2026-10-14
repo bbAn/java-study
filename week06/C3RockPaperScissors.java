@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class C3RockPaperScissors {
     public static void main(String[] args) {
         // 도전3 가위바위보
+        final int COMPUTER = 2;     // 맨 윗줄. 바위
+
         Scanner sc = new Scanner(System.in);
         System.out.print("가위(1) 바위(2) 보(3) 중 하나: ");
         int user = sc.nextInt();
-
-        final int COMPUTER = 3;
 
         if (user < 1 || user > 3) {
             System.out.println("잘못된 입력입니다");

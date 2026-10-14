@@ -14,5 +14,9 @@ public class HW6_6SafeIntInput {
         } else {
             System.out.println("숫자를 입력하세요");
         }
+        // System.out.println("입력한 나이: " + age);
+        //   java: cannot find symbol  symbol: variable age  (17번째 줄)
+
+        sc.close();
     }
 }
