@@ -16,13 +16,13 @@ public class C3Menu {
         int menu = sc.nextInt();
 
         String selectMenu = switch (menu) {
-            case 1 -> "입력";
-            case 2 -> "조회";
-            case 3 -> "삭제";
-            case 0 -> "종료";
-            default -> "등록되지 않은 메뉴";
+            case 1 -> "입력을";
+            case 2 -> "조회를";
+            case 3 -> "삭제를";
+            case 0 -> "종료를";
+            default -> "등록되지 않은 메뉴를";
         };
-        System.out.println(selectMenu + "를 선택했습니다");
+        System.out.println(selectMenu + " 선택했습니다");
 
         sc.close();
     }

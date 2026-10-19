@@ -21,5 +21,7 @@ public class HW7_5DaysOfMonthArrow {
         } else {
             System.out.println(days + "일");
         }
+
+        sc.close();
     }
 }

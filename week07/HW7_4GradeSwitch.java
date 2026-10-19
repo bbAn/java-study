@@ -31,11 +31,10 @@ public class HW7_4GradeSwitch {
 //                System.out.println("F");
 //                break;
 //        }
-// 아래 if 활성화시 101, -5 잘못된 점수입니다로 나옴
-//        if (score < 0 || score > 100) {
-//            System.out.println("잘못된 점수입니다");
-//            return;
-//        }
+        if (score < 0 || score > 100) {
+            System.out.println("잘못된 점수입니다");
+            return;
+        }
 
         switch (score / 10) {
             case 10:

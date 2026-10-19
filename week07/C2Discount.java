@@ -22,5 +22,7 @@ public class C2Discount {
         } else {
             System.out.println("할인율: " + discount + "%");
         }
+
+        sc.close();
     }
 }

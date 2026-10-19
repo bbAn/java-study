@@ -2,6 +2,7 @@ package week07;
 
 public class Week07 {
     public static void main(String[] args) {
+        // 수업 예제
         int month = 3;
         // 전통 방식
         switch (month) {
