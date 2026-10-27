@@ -20,8 +20,12 @@ public class HW8_5SemicolonTrap {
 //            System.out.println(i);
 //        }
 
-        // 3단계 — 증감식(i++) 을 지우면 무한 루프
-        for (int i = 1; i <= 5; ) {
+        // 3단계 — 증감식(i++) 을 지우면 무한 루프, 1 만 계속 찍힘 (빨간 네모 Stop 으로 멈춤)
+//        for (int i = 1; i <= 5; ) {
+//            System.out.println(i);
+//        }
+
+        for (int i = 1; i <= 5; i++) {
             System.out.println(i);
         }
     }

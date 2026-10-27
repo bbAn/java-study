@@ -2,6 +2,7 @@ package week08;
 
 public class Week08 {
     public static void main(String[] args) {
+        // 수업 예제
         // 1부터 10까지 출력
         for (int i = 1; i <= 10; i++) {
             System.out.print(i + " ");

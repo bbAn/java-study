@@ -10,6 +10,7 @@ public class HW8_3Sum {
         System.out.println("합계: " + sum);
 
         // 1단계 — sum 선언을 for 안으로 옮기고, println 은 밖에 둠
+        //   바깥에 sum 이 이미 있어서 sum2 로 바꿈 (같은 이름은 already defined)
         //   HW8_3Sum.java:20
         //   java: cannot find symbol  symbol: variable sum2  location: class week08.HW8_3Sum
 //        for (int i = 1; i <= 100; i++) {
